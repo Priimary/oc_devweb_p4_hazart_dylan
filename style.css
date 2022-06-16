@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -139,10 +139,6 @@ a:hover {
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -677,7 +673,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -700,17 +696,20 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -740,6 +739,9 @@ h4 {
 }
 
 .portfolio-thumb {
+    
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px;
 }
 
@@ -771,21 +773,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fee700;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffd131!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #fee700;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #cccc00!important;
 }
 
 .ltc-white {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1040,54 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*AJOUT*/
+.navbar-brand img
+{
+    height: 50px;
+}
+.site-navigation li a
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.blockquote-bloc2
+{
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.figcaption-bloc2
+{
+    font-size: 18px;
+}
+.footer_p
+{
+
+    font-size: 16px;
+    font-weight: 600;
+}
+.d-bloc a:hover .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-xl
+{
+    color:rgba(0, 0, 0, .8)
+}
+.contact-bloc a
+{
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-bloc p
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.form_1-label, .form-control
+{
+    font-size: 16px;
+    font-weight: bold;
 }
