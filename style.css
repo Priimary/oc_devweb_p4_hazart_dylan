@@ -1075,14 +1075,6 @@ h4 {
 {
     color:rgba(0, 0, 0, .8)
 }
-.contact-bloc
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin-top: 80px;
-}
 .contact-bloc a
 {
     text-decoration: underline;
