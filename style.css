@@ -1091,3 +1091,11 @@ h4 {
     font-size: 16px;
     font-weight: bold;
 }
+.contact-bloc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    padding-left: 70px;
+}
