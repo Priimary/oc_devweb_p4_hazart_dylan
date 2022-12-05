@@ -1,4 +1,4 @@
-# oc_devweb_p4_hazart_dylan
+# OC_DevWeb_P4
 
 This is the 4th project of the OpenClassrooms Web Developer Path.
 
