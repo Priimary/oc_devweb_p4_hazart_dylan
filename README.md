@@ -1,21 +1,22 @@
 # oc_devweb_p4_hazart_dylan
 
-Site amélioré disponible ici : https://priimary.github.io/oc_devweb_p4_hazart_dylan/
-Projet 4 formation Développeur Web OpenClassrooms - Optimisez un site web existant.
+This is the 4th project of the OpenClassrooms Web Developer Path.
 
-Analyse d'un site web existant, puis répertorier 10 améliorations SEO/Accessibilité.
+Preview of the website available here : https://priimary.github.io/oc_devweb_p4_hazart_dylan/
 
-Une fois que ces 10 améliorations sont choisies, les appliquer sur le contenu du site ainsi que son code source.
+### PROJECT OBJECTIVE ###
 
-Liste des points à modifier : 
+Inspect an already-made website, find and solve 10 SEO/Accessibility issue.
 
-1. Balise <meta> title, description, keywords & balise <html lang="">.
-2. Textes cachés ( blanc sur blanc/ texte tout petit/en dehors de la page ).
-3. Utilisation d'images au lieu de texte quand celles-ci n'apportent rien au contenu du site web.
-4. Images trop grandes & lourdes.
-5. Liens sortants n'ayant aucun rapport avec le thème du site.
-6. Taille du texte trop petite.
-7. Alt text des images eronnés.
-8. Manque de balises sémantiques.
-9. Contraste entre couleur de premier plan et d'arrière plan trop bas.
-10. Nom de la seconde page "Page 2".
+Issue found : 
+
+1. Tag <meta> title, description, keywords & tag <html lang="">.
+2. Hidden text (white on white / very little, unreadable text / out of window text).
+3. Out-of-context usage of picture instead of plain text.
+4. Usage of uncompressed picture.
+5. Out-of-context external link.
+6. Font size too small.
+7. Out-of-context picture's alt text.
+8. Lack of semantic elements.
+9. Contrast between first & second layer too low.
+10. Name of the second page "Page 2".
